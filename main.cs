@@ -15,7 +15,7 @@ public class Cryptography
             ///
             /// The RSACryptoServiceProvider supports key sizes from 384
             /// bits to 16384 bits in increments of 8 bits if you have the
-            /// Microsoft Enhanced Cryptographic Provider installed. It
+            /// Microsoft Enhanced Cryptographic Provider installed. 
             /// supports key sizes from 384 bits to 512 bits in increments
             /// of 8 bits if you have the Microsoft Base Cryptographic
             /// Provider installed.
@@ -72,7 +72,7 @@ public class Cryptography
             /// <param name="input">Data to encrypt.</param>
             /// <param name="publicKey">Public key to use.</param>
             /// <returns>Encrypted data.</returns>
-            /// ///
+            ///
             public static string Encrypt(string input, string publicKey)
             {
                 if (input == null)
