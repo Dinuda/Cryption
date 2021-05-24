@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
+// Ass
 public class Cryptography
 {
     public class Asymmetric
@@ -32,7 +33,7 @@ public class Cryptography
                 {
                     ProviderType = 1,
                     Flags = CspProviderFlags.UseArchivableKey,
-                    KeyNumber = (int) KeyNumber.Exchange
+                    KeyNumber = (int)KeyNumber.Exchange
                 };
 
                 using var rsa = new RSACryptoServiceProvider(keySize, csp);
