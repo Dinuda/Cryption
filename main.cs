@@ -72,7 +72,7 @@ public class Cryptography
             /// <param name="input">Data to encrypt.</param>
             /// <param name="publicKey">Public key to use.</param>
             /// <returns>Encrypted data.</returns>
-            /// ///
+            ///
             public static string Encrypt(string input, string publicKey)
             {
                 if (input == null)
