@@ -4,7 +4,6 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
-// add Crypto Class
 public class Cryptography
 {
     public class Asymmetric
