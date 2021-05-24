@@ -276,6 +276,7 @@ public class Cryptography
         /// Decrypt data using a passphrase and the Rijndael/AES algorithm.
         /// </summary>
         /// <param name="input">Data to decrypt.</param>
+        /// add data param name
         /// <param name="passphrase">Passphrase to use.</param>
         /// <returns>Decrypted data.</returns>
         public static string Decrypt(string input, string passphrase)
